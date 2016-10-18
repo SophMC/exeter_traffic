@@ -10,7 +10,9 @@ These scripts use the data files `Exeter_city_only` and `Exeter_box.csv`. I can 
 Create the environment for exeter_traffic:
 
 Inside exeter_traffic:
-conda env create -n py35 python=3.5 -f environment.yml --name exeter_traffic
+`conda env create -n py35 python=3.5 -f environment.yml`
+
+`source activate exeter_traffic`
 
 Run [make_relative_csv.py](/scripts/make_relative_csv.py) to create some more data subsets
 which the other scripts can pull from.   

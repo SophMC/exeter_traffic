@@ -3,14 +3,14 @@ Exploring Estimated Average Daily Flows (AADFs) in Exeter with data from 2000 - 
 
 Using [Jupyter Notebook](http://jupyter.org/) with the Anaconda (2.4.1) Python 3.5.
 
-These scripts use the data files `Exeter_city_only` and `Exeter_box.csv`. I can provide if needed.
+These scripts use the data files `Exeter_city_only`,`Exeter_box.csv` and `road_coords.csv`.
 
 **Before you start**
 
 Create the environment for exeter_traffic:
 
-Inside exeter_traffic:
-`conda env create -n py35 python=3.5 -f environment.yml`
+Inside exeter_traffic/:     
+`conda env create -f environment.yml`
 
 `source activate exeter_traffic`
 
